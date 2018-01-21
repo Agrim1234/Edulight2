@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.agrim.edulight">
+    <uses-feature android:name="android.hardware.camera2">
+    </uses-feature>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intent2" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".intent1" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".articles" android:parentActivityName=".intent1">
+        </activity>
+        <activity android:name=".poems" android:parentActivityName=".intent1">
+        </activity>
+        <activity android:name=".facts" android:parentActivityName=".intent1">
+        </activity>
+        <activity android:name=".countries" android:parentActivityName=".intent1">
+        </activity>
+        <activity android:name=".gaming" android:parentActivityName=".intent1">
+        </activity>
+        <activity android:name=".topten" android:parentActivityName=".intent1">
+        </activity>
+        <activity android:name=".articles2" android:parentActivityName=".intent2">
+        </activity>
+        <activity android:name=".poems2" android:parentActivityName=".intent2">
+        </activity>
+        <activity android:name=".facts2" android:parentActivityName=".intent2">
+        </activity>
+        <activity android:name=".auto" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".aviation" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".banks" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".army" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".parties" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".defense" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".education" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".fmcg" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".electronics" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".food" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".isro" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".it" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".industry" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".power" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".rail" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".religion" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".rivers" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".sports" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".startup" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".telecom" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".textile" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".waterfall" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".language" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".agriculture" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".constitution" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".culture" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".mountains" android:parentActivityName=".articles">
+        </activity>
+        <activity android:name=".about_us" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".settings" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".have_fun" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".about_edulight" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".childeren" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".death" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".family" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".famous" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".friendship" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".funny" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".life" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".love" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".motivation" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".nature" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".sad" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".sadlove" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".short1" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".sonnet" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".spiritual" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".teen" android:parentActivityName=".poems">
+        </activity>
+        <activity android:name=".poem1" android:parentActivityName=".motivation">
+        </activity>
+        <activity android:name=".poem2" android:parentActivityName=".motivation">
+        </activity>
+        <activity android:name=".poem3" android:parentActivityName=".motivation">
+        </activity>
+        <activity android:name=".poem4" android:parentActivityName=".motivation">
+        </activity>
+        <activity android:name=".poem5" android:parentActivityName=".motivation">
+        </activity>
+        <activity android:name=".poem6" android:parentActivityName=".motivation">
+        </activity>
+        <activity android:name=".sign_in" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".sign_up" android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".share">
+        </activity>
+        <activity android:name=".your_profile" android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+</manifest>

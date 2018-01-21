@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Share" android:id="@+id/share" android:icon="@drawable/ic_share_black_24dp" android:iconTint="#000000"/>
+    <item android:title="Sign up" android:id="@+id/signup" android:icon="@drawable/ic_person_add_black_24dp" android:iconTint="#000000"/>
+    <item android:title="sign in" android:id="@+id/signin" android:icon="@drawable/ic_arrow_forward_black_24dp" android:iconTint="#000000"/>
+    <item android:title="Your profile" android:id="@+id/yourprofile" android:icon="@drawable/ic_person_black_24dp"/>
+    <item android:title="Settings" android:id="@+id/Settings" android:icon="@drawable/ic_settings_black_24dp" android:iconTint="#000000"/>
+    <item android:title="About me" android:id="@+id/about" android:icon="@drawable/ic_person_black_24dp" android:iconTint="#000000"/>
+    <item android:title="About Edulight" android:id="@+id/aboutedulight" android:icon="@drawable/logo" />
+</menu>
